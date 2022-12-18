@@ -151,7 +151,7 @@
                     })).join("|")
                 },
                 te = function(e, t, n) {
-                    var i = 10;
+                    var i = 4;
                     return e * t > 524288 && (i = 1), n ? Math.min(i, n) : i
                 },
                 ne = function(e, t) {
