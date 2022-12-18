@@ -48,7 +48,8 @@ if __name__ == "__main__":
 
   patches = [
     # Update max image count to 10
-    ("{var i=4;return e*t>", "{var i=10;return e*t>"),
+    # Note: Disabled due to NovelAI team not wanting to allow this feature.
+    #("{var i=4;return e*t>", "{var i=10;return e*t>"),
     # Add "Extra Small" image size
     (
       '{name:"Square",width:512,height:512,category:"Small"},',
