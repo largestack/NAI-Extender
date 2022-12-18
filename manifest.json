@@ -1,0 +1,35 @@
+{
+  "name": "NovelAI Extender",
+  "version": "1.0",
+  "description": "Extends NovelAI image generation with additional features. More images, bookmarking, and styles.",
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "host_permissions": [
+    "*://novelai.net/*"
+  ],
+  "permissions": [
+    "declarativeNetRequest",
+    "activeTab"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": ["*://novelai.net/*"],
+      "resources": ["image_patched.js", "star.png", "nostar.png","refresh.png","styles.txt"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "all_frames": true,
+      "matches": ["*://novelai.net/*"],
+      "css": ["content-style.css"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "manifest_version": 3
+}
