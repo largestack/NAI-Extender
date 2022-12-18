@@ -4,7 +4,7 @@ Chrome and Edge browser extension that extends NovelAI capabilities.
 ## Image generation enhancements
 Adds a few capabilities to NovelAI image generation:
 
-[[/media/image_gen.png|NovelAI UI Extender modified interface.]]
+<img src="/media/image_gen.png" width="70%" height="70%">
 
 1. Allows generation of up to 10 images at a time (10 small, 6 normal, 4 large)
 1. Adds a separate style prompt input box for controlling the style of your images.
