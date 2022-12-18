@@ -6,12 +6,13 @@ Adds a few capabilities to NovelAI image generation:
 
 <img src="/media/image_gen.png" width="70%" height="70%">
 
-1. ~~Allows generation of up to 10 images at a time (10 small, 6 normal, 4 large)~~*
+1. ~~Allows generation of up to 10 images at a time (10 small, 6 normal, 4 large)~~\*
 1. Adds a separate style prompt input box for controlling the style of your images.
 1. Button to generate a random style option. This is sampled randomly from 10K+ prompt extenders output by https://huggingface.co/spaces/daspartho/prompt-extend
 1. Bookmarking of your favorite prompts and styles so that you can come back to them.
 1. Adds an image size preset of "Extra Small" that is about 40% cheaper than Small images to generate.
-*Disabled this feature due to complaints from NovelAI team. I disagree with their decision here since it's still one API call and the same limit on the amount of image content generated per call.
+
+\* `Disabled this feature due to complaints from NovelAI team. I disagree with their decision here since it's still one API call and the same limit on the amount of image content generated per call.`
 
 Note, this mod causes a couple official capabilities to no longer work:
 * The similar token recommender does not work with this new UI.
