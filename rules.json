@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/image_patched.js"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://novelai.net/_next/static/chunks/pages/image-251d9f390dd16c8a.js",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  }
+]
